@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // CREATED BY NICOLE C. ERASGA
-public class App 
+public class stringReverse
 {
     public static void main(String[] args) throws Exception 
     {
