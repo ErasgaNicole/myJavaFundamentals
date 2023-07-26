@@ -17,7 +17,7 @@ public class primeChecker {
       boolean isPrime = false;
       while (i <= userInput / 2) 
       {
-        // If the loop detected a whole number then it is prime
+        // If the loop detected a whole number then it is not a prime
         if (userInput % i == 0) 
         {
           System.out.println(i);
