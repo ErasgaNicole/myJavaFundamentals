@@ -8,14 +8,14 @@ public class fibonacciSequence
         try (Scanner fibonacciScanner = new Scanner(System.in)) 
         {
             // VARIABLES AND USER INTERFACE
-            int userInput, userRange, holder, finalAnswer = 1;
+            int userInput, userRange, holder, finalAnswer;
             System.out.print("Please input the base number: ");
             userInput = fibonacciScanner.nextInt();
             System.out.print("Please input the how many loops/range: "); 
             userRange = fibonacciScanner.nextInt();
-
+            finalAnswer = userInput;
             // FOR LOOPS THAT DETECT THE USER INPUT AND USER RANGE
-            for (int i = 0; i <= userRange; i++)
+            for (int i = -1; i <= userRange; i++)
             {
                 // FIRST IT STORE THE userInput into an empty variable named Holder.
                  holder = userInput;
